@@ -11,7 +11,11 @@ Demostración de las virtudes de Prisma ORM con Node.js, TypeScript y MySQL.
 
 ## 📦 Instalación
 Usar:
-
+```bash
 npm install
 npx prisma generate
 npx prisma db push
+```
+Ejecucion:
+```bash
+npm run dev
