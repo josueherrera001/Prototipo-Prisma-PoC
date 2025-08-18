@@ -23,8 +23,8 @@ npm run dev
 
 ## 🛠️ Tecnologías
 
-Node.js v20
-Prisma 6.13.0
-TypeScript
-MySQL
-tsx
+-  Node.js v20
+-  Prisma 6.13.0
+-  TypeScript
+-  MySQL
+-  tsx
