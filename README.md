@@ -21,7 +21,7 @@ Ejecucion:
 npm run dev
 ```
 
-##🛠️ Tecnologías
+## 🛠️ Tecnologías
 
 Node.js v20
 Prisma 6.13.0
