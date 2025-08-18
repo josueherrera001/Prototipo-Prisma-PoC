@@ -1,10 +1,13 @@
 {
   "name": "prisma-poc",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+     "test": "tsx src/test.ts",
+    "dev": "tsx src/test.ts",
+    "build": "tsc",
+    "start": "node dist/test.js"
   },
   "keywords": [],
   "author": "",
@@ -15,8 +18,10 @@
     "prisma": "^6.13.0"
   },
   "devDependencies": {
-    "@types/node": "^24.2.1",
+    "@types/node": "^24.3.0",
+    "prisma": "^6.13.0",
     "ts-node": "^10.9.2",
+    "tsx": "^4.20.4",
     "typescript": "^5.9.2"
   }
 }
